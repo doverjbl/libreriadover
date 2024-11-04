@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INICIO</title>
+    <link rel="stylesheet" href="bootstrap-5.1.3-dist/css/bootstrap.min.css">
+    <style>
+        .navbar-custom {
+            background-color: #343a40;
+        }
+        .navbar-custom .nav-link, .navbar-custom .navbar-brand {
+            color: #fff;
+        }
+        .navbar-custom .nav-link:hover, .navbar-custom .navbar-brand:hover {
+            color: #ffc107;
+        }
+        .hero-section {
+            background: url('your-background-image.jpg') no-repeat center center;
+            background-size: cover;
+            color: white;
+            padding: 100px 0;
+            text-align: center;
+            position: relative;
+        }
+        .hero-section::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5); /* Capa de oscuridad para texto más legible */
+        }
+        .hero-content {
+            position: relative;
+            z-index: 1;
+        }
+        .hero-section h1 {
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+        .hero-section p {
+            font-size: 1.25rem;
+            margin-bottom: 30px;
+        }
+        .btn-primary-custom {
+            background-color: #ffc107;
+            border-color: #ffc107;
+            color: #343a40;
+        }
+        .btn-primary-custom:hover {
+            background-color: #e0a800;
+            border-color: #e0a800;
+        }
+    </style>
+</head>
+<body>
+    <!-- Barra de navegación -->
+    <nav class="navbar navbar-expand-lg navbar-custom">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">LIBRERÍA DOVER</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="DEFE.html">INICIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="PRODUCTO.html">PRODUCTO</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">MARCAS</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="marcas1.html">FAVER-CASTELL</a></li>
+                            <li><a class="dropdown-item" href="marca2.html">MAPED</a></li>
+                            <li><a class="dropdown-item" href="marca3.html">SABONIS</a></li>
+                            <li><a class="dropdown-item" href="marca4.html">CHAMEX</a></li>
+                            <li><a class="dropdown-item" href="marcas5.html">MADISON</a></li>
+                            <li><a class="dropdown-item" href="marcas6.html">LIDER</a></li>
+                            <li><a class="dropdown-item" href="marcas7.html">PILOD</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="DESCUENTOS.html">DESCUENTOS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="NOVEDADES.html">NOVEDADES</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="DIRECCION.html">DIRECCIÓN</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="ESCOLAR.html">ESCOLAR</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="OFICINA.html">OFICINA</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="PAPELERIA.html">PAPELERÍA</a></li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+                    <button class="btn btn-primary-custom" type="submit">Buscar</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+
+<div class="row rowcols-5 row-cols-md-4 g-5">
+    <div class="col-md-3,5">
+      <div class="card">
+        <img src="ESCOLARES/1721937805806.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Regla de 15 cm, de Plástico, Transparente, KEYROAD</h5>
+          <p class="card-text"></p>
+          <a class="h6 text-decoration-none text-truncate" href="">Añadir al Carrito</a>
+          <div class="d-flex align-items-center justify-content-center mt-2">
+              <h5>Bs. 2.00</h5><h6 class="text-muted ml-2"><del></del></h6>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+    <div class="col-md-3,5">
+      <div class="card">
+        <img src="ESCOLARES/1721937805825.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <center><h5 class="card-title">Regla de Plástico Transparente, 15 cm</h5></center>
+          <p class="card-text"></p>
+          <a class="h6 text-decoration-none text-truncate" href="">Añadir al Carrito</a>
+          <div class="d-flex align-items-center justify-content-center mt-2">
+              <h5>Bs. 2.00</h5><h6 class="text-muted ml-2"><del></del></h6>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+    <div class="col-md-3">
+      <div class="card">
+        <img src="ESCOLARES/1721937805843.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+         <center><h5 class="card-title">Regla de 15 cm, de Plástico, Transparente,  </h5></center>
+          <p class="card-text"></p>
+          <a class="h6 text-decoration-none text-truncate" href="">Añadir al Carrito</a>
+          <div class="d-flex align-items-center justify-content-center mt-2">
+              <h5>Bs. 3.00</h5><h6 class="text-muted ml-2"><del></del></h6>
+  
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    <div class="col-md-3">
+      <div class="card">
+        <img src="ESCOLARES/1721937805862.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Transportador 360º Artesco – 10 cm </h5>
+          <p class="card-text"></p>
+          <a class="h6 text-decoration-none text-truncate" href="">Añadir al Carrito</a>
+          <div class="d-flex align-items-center justify-content-center mt-2">
+              <h5>Bs. 5.00</h5><h6 class="text-muted ml-2"><del></del></h6>
+        </div>
+      </div>
+    </div>
+  </div>
+          
+               
+</div>
+</div> 
+</div>
+</div>
+
+  <div class="row rowcols-5 row-cols-md-4 g-5">
+    <div class="col-md-3">
+      <div class="card">
+        <img src="ESCOLARES/1721937805879.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Regla Metálica de 20 cm, Escala en cm, mm y Pulgadas
+
+            </h5>
+          <p class="card-text"></p>
+          <a class="h6 text-decoration-none text-truncate" href="">Añadir al Carrito</a>
+          <div class="d-flex align-items-center justify-content-center mt-2">
+              <h5>Bs. 5.00</h5><h6 class="text-muted ml-2"><del></del></h6>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+    <div class="col-md-3">
+      <div class="card">
+        <img src="ESCOLARES/1721937805898.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+         <center><h5 class="card-title">Regla de Plástico, Artesco Top Line, 20 cm</h5></center> 
+          <p class="card-text"></p>
+          <a class="h6 text-decoration-none text-truncate" href="">Añadir al Carrito</a>
+          <div class="d-flex align-items-center justify-content-center mt-2">
+              <h5>Bs. 3.50</h5><h6 class="text-muted ml-2"><del></del></h6>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <div class="col-md-3">
+      <div class="card">
+        <img src="ESCOLARES/1721937805915.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Regla Metálica de 30 cm, Escala en cm, mm y Pulgadas
+
+            </h5>
+          <p class="card-text"></p>
+          <a class="h6 text-decoration-none text-truncate" href="">Añadir al Carrito</a>
+          <div class="d-flex align-items-center justify-content-center mt-2">
+              <h5>Bs. 6.00</h5><h6 class="text-muted ml-2"><del></del></h6>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+    <div class="col-md-3">
+      <div class="card">
+        <img src="ESCOLARES/1721937805933.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Borrador Triangular SABONIS TR 302 – Blanco
+
+            </h5>
+          <p class="card-text"></p>
+          <a class="h6 text-decoration-none text-truncate" href="">Añadir al Carrito</a>
+          <div class="d-flex align-items-center justify-content-center mt-2">
+              <h5>Bs. 2.00</h5><h6 class="text-muted ml-2"><del></del></h6>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+      
+</div>
+</div>
+</div>
+</div>
+
+<div class="row rowcols-5 row-cols-md-4 g-5">
+<div class="col-md-3">
+<div class="card">
+<img src="ESCOLARES/1721937805950.jpg" class="card-img-top" alt="...">
+<div class="card-body">
+<h5 class="card-title">Borrador MILAN Miga de Pan 4020
+
+  </h5>
+<p class="card-text"></p>
+<a class="h6 text-decoration-none text-truncate" href="">Añadir al Carrito</a>
+<div class="d-flex align-items-center justify-content-center mt-2">
+    <h5>Bs. 5.00</h5><h6 class="text-muted ml-2"><del></del></h6>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="col-md-3">
+<div class="card">
+<img src="ESCOLARES/1721937805975.jpg" class="card-img-top" alt="...">
+<div class="card-body">
+<h5 class="card-title">Borrador para Tinta y Lápiz SABONIS TR 505
+
+  </h5>
+<p class="card-text"></p>
+<a class="h6 text-decoration-none text-truncate" href="">Añadir al Carrito</a>
+<div class="d-flex align-items-center justify-content-center mt-2">
+    <h5>Bs. 2.50</h5><h6 class="text-muted ml-2"><del></del></h6>
+</div>
+</div>
+</div>
+</div>
+
+<div class="col-md-3">
+<div class="card">
+<img src="ESCOLARES/1721937805994.jpg" class="card-img-top" alt="...">
+<div class="card-body">
+<h5 class="card-title">Borrador Miga de Pan MILAN 430
+
+  </h5>
+<p class="card-text"></p>
+<a class="h6 text-decoration-none text-truncate" href="">Añadir al Carrito</a>
+<div class="d-flex align-items-center justify-content-center mt-2">
+    <h5>Bs. 2.50</h5><h6 class="text-muted ml-2"><del></del></h6>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="col-md-3">
+<div class="card">
+<img src="ESCOLARES/1721937806012.jpg" class="card-img-top" alt="...">
+<div class="card-body">
+<h5 class="card-title">Borrador SABONIS 305,en forma de cuadrado
+
+  </h5>
+<p class="card-text"></p>
+<a class="h6 text-decoration-none text-truncate" href="">Añadir al Carrito</a>
+<div class="d-flex align-items-center justify-content-center mt-2">
+    <h5>Bs. 1.00</h5><h6 class="text-muted ml-2"><del></del></h6>
+</div>
+</div>
+</div>
+</div>
+
+
+
+</div>
+</div>
+</div>
+</div>
+
+<div class="row rowcols-5 row-cols-md-4 g-5">
+<div class="col-md-3">
+<div class="card">
+<img src="ESCOLARES/1721937806030.jpg" class="card-img-top" alt="...">
+<div class="card-body">
+<h5 class="card-title">Borrador Moldeable Faber-Castell
+
+  </h5>
+<p class="card-text"></p>
+<a class="h6 text-decoration-none text-truncate" href="">Añadir al Carrito</a>
+<div class="d-flex align-items-center justify-content-center mt-2">
+    <h5>Bs. 6.50</h5><h6 class="text-muted ml-2"><del></del></h6>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="col-md-3">
+<div class="card">
+<img src="ESCOLARES/1721937806052.jpg" class="card-img-top" alt="...">
+<div class="card-body">
+<h5 class="card-title">Borrador Miga de Pan,color amrillo</h5>
+<p class="card-text"></p>
+<a class="h6 text-decoration-none text-truncate" href="">Añadir al Carrito</a>
+<div class="d-flex align-items-center justify-content-center mt-2">
+    <h5>Bs. 1.50</h5><h6 class="text-muted ml-2"><del></del></h6>
+</div>
+</div>
+</div>
+</div>
+
+<div class="col-md-3">
+<div class="card">
+<img src="ESCOLARES/1721937806074.jpg" class="card-img-top" alt="...">
+<div class="card-body">
+<h5 class="card-title">EcoLápiz Rojo Triangular 1812 Faber-Castell
+
+  </h5>
+<p class="card-text"></p>
+<a class="h6 text-decoration-none text-truncate" href="">Añadir al Carrito</a>
+<div class="d-flex align-items-center justify-content-center mt-2">
+    <h5>Bs. 2.50</h5><h6 class="text-muted ml-2"><del></del></h6>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="col-md-3">
+<div class="card">
+<img src="ESCOLARES/1721937806109.jpg" class="card-img-top" alt="...">
+<div class="card-body">
+<h5 class="card-title">EcoLápiz Bicolor Rojo y Azul 737 Faber-Castell
+
+  </h5>
+<p class="card-text"></p>
+<a class="h6 text-decoration-none text-truncate" href="">Añadir al Carrito</a>
+<div class="d-flex align-items-center justify-content-center mt-2">
+    <h5>Bs. 2.50</h5><h6 class="text-muted ml-2"><del></del></h6>
+</div>
+</div>
+</div>
+</div>
+
+
+
+</div>
+</div>
+</div>
+</div>
+
+<div class="row rowcols-5 row-cols-md-4 g-5">
+<div class="col-md-3">
+<div class="card">
+<img src="ESCOLARES/1721937806150.jpg" class="card-img-top" alt="...">
+<div class="card-body">
+<h5 class="card-title">Lápiz de Color Rojo, Hexagonal, SABONIS Profesional – P 8002
+
+  </h5>
+<p class="card-text"></p>
+<a class="h6 text-decoration-none text-truncate" href="">Añadir al Carrito</a>
+<div class="d-flex align-items-center justify-content-center mt-2">
+    <h5> Bs. 2.50</h5><h6 class="text-muted ml-2"><del></del></h6>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="col-md-3">
+<div class="card">
+<img src="ESCOLARES/1721937806176.jpg" class="card-img-top" alt="...">
+<div class="card-body">
+<h5 class="card-title">Lápiz Negro de Grafito HB, Hexagonal, STABILO Swano Pastel – Celeste
+
+  </h5>
+<p class="card-text"></p>
+<a class="h6 text-decoration-none text-truncate" href="">Añadir al Carrito</a>
+<div class="d-flex align-items-center justify-content-center mt-2">
+    <h5>Bs. 4.00</h5><h6 class="text-muted ml-2"><del></del></h6>
+</div>
+</div>
+</div>
+</div>
+
+<div class="col-md-3">
+<div class="card">
+<img src="ESCOLARES/1721937806203.jpg" class="card-img-top" alt="...">
+<div class="card-body">
+<h5 class="card-title">Lápiz Negro de Grafito HB MILAN Sunset con Goma imcluida 
+
+  </h5>
+<p class="card-text"></p>
+<a class="h6 text-decoration-none text-truncate" href="">Añadir al Carrito</a>
+<div class="d-flex align-items-center justify-content-center mt-2">
+    <h5>Bs. 5.00</h5><h6 class="text-muted ml-2"><del></del></h6>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="col-md-3">
+<div class="card">
+<img src="ESCOLARES/1721937806230.jpg" class="card-img-top" alt="...">
+<div class="card-body">
+<h5 class="card-title">EcoLápiz de Grafito, HB, Faber-Castell 1210 Presto, Color Negro, Redondo
+
+  </h5>
+<p class="card-text"></p>
+<a class="h6 text-decoration-none text-truncate" href="">Añadir al Carrito</a>
+<div class="d-flex align-items-center justify-content-center mt-2">
+    <h5>Bs. 2.00</h5><h6 class="text-muted ml-2"><del></del></h6>
+</div>
+</div>
+</div>
+</div>
+
+
+</div>
+</div>
+</div>
+</div>
+
+<div class="row rowcols-5 row-cols-md-3 g-5">
+<div class="col-md-3">
+<div class="card">
+<img src="ESCOLARES/1721937806256.jpg" class="card-img-top" alt="...">
+<div class="card-body">
+<h5 class="card-title">EcoLápiz de Grafito, HB, 1210 Presto, Color Negro
+
+  </h5>
+<p class="card-text"></p>
+<a class="h6 text-decoration-none text-truncate" href="">Añadir al Carrito</a>
+<div class="d-flex align-items-center justify-content-center mt-2">
+    <h5>Bs. 2.00</h5><h6 class="text-muted ml-2"><del></del></h6>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="col-md-3">
+<div class="card">
+<img src="ESCOLARES/1721937806282.jpg" class="card-img-top" alt="...">
+<div class="card-body">
+<h5 class="card-title">Lápiz Negro Triangular de Grafito HB MILAN
+
+  
+  </h5>
+<p class="card-text"></p>
+<a class="h6 text-decoration-none text-truncate" href="">Añadir al Carrito</a>
+<div class="d-flex align-items-center justify-content-center mt-2">
+    <h5>Bs. 2.00</h5><h6 class="text-muted ml-2"><del></del></h6>
+</div>
+</div>
+</div>
+</div>
+
+<div class="col-md-3">
+<div class="card">
+<img src="ESCOLARES/1721937806282.jpg" class="card-img-top" alt="...">
+<div class="card-body">
+<h5 class="card-title">Lápiz Negro Triangular de Grafito HB MILAN
+
+  
+  </h5>
+<p class="card-text"></p>
+<a class="h6 text-decoration-none text-truncate" href="">Añadir al Carrito</a>
+<div class="d-flex align-items-center justify-content-center mt-2">
+    <h5>Bs. 2.00</h5><h6 class="text-muted ml-2"><del></del></h6>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="col-md-3">
+<div class="card">
+<img src="ESCOLARES/1721937806332.jpg" class="card-img-top" alt="...">
+<div class="card-body">
+<h5 class="card-title">EcoLápiz Rojo Triangular 1812 Faber-Castell
+
+  </h5>
+<p class="card-text"></p>
+<a class="h6 text-decoration-none text-truncate" href="">Añadir al Carrito</a>
+<div class="d-flex align-items-center justify-content-center mt-2">
+    <h5>Bs. 2.50</h5><h6 class="text-muted ml-2"><del></del></h6>
+</div>
+</div>
+</div>
+</div>
+
+
+</div>
+</div>
+</div>
+</div>
+
+<div class="row rowcols-5 row-cols-md-3 g-5">
+<div class="col-md-3">
+<div class="card">
+<img src="ESCOLARES/1721937806356.jpg" class="card-img-top" alt="...">
+<div class="card-body">
+  <center><h5 class="card-title">EcoLápiz de Grafito, HB,1210 Presto, Color Negro
+
+  </h5> </center>
+<p class="card-text"></p>
+<a class="h6 text-decoration-none text-truncate" href="">Añadir al Carrito</a>
+<div class="d-flex align-items-center justify-content-center mt-2">
+    <h5>Bs. 2.00</h5><h6 class="text-muted ml-2"><del></del></h6>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="col-md-3">
+<div class="card">
+<img src="ESCOLARES/1721937806380.jpg" class="card-img-top" alt="...">
+<div class="card-body">
+<h5 class="card-title">Tijera Escolar Punta Roma, de 13 cm, Pequeña
+
+  </h5>
+<p class="card-text"></p>
+<a class="h6 text-decoration-none text-truncate" href="">Añadir al Carrito</a>
+<div class="d-flex align-items-center justify-content-center mt-2">
+    <h5>Bs. 4.00</h5><h6 class="text-muted ml-2"><del></del></h6>
+</div>
+</div>
+</div>
+</div>
+
+<div class="col-md-3">
+<div class="card">
+<img src="ESCOLARES/1721937806403.jpg" class="card-img-top" alt="...">
+<div class="card-body">
+<h5 class="card-title">Tijera Escolar Punta Roma, de 13 cm, Pequeña,  </h5>
+<p class="card-text"></p>
+<a class="h6 text-decoration-none text-truncate" href="">Añadir al Carrito</a>
+<div class="d-flex align-items-center justify-content-center mt-2">
+    <h5>Bs. 9.50</h5><h6 class="text-muted ml-2"><del></del></h6>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="col-md-3">
+<div class="card">
+<img src="ESCOLARES/1721937806430.jpg" class="card-img-top" alt="...">
+<div class="card-body">
+<h5 class="card-title">Tijera Escolar Punta Roma de 13 cm, Pequeña
+
+  </h5>
+<p class="card-text"></p>
+<a class="h6 text-decoration-none text-truncate" href="">Añadir al Carrito</a>
+<div class="d-flex align-items-center justify-content-center mt-2">
+    <h5>Bs. 6.00</h5><h6 class="text-muted ml-2"><del></del></h6>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+<script src="bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+</html>
